@@ -21,6 +21,8 @@ Route::put('/delivery/{id}','DeliveryController@update');
 // get stock opname header
 Route::get('/stockopname','StockOpnameController@index');
 Route::post('/stockopname','StockOpnameController@store');
+//create kkso
+Route::get('/createadjustment','StockOpnameController@createkkso');
 
 
 
